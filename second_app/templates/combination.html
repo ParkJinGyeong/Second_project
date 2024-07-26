@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>조합을 골라보세요</h1>
+    <form action = "">
+        <h2>하루에 몇 끼 먹습니까?</h2>
+     <div>
+            <input type = "radio", name = "meal", id = "아침", values="아침">
+            <label for = "아침">아침</label>
+     </div>
+     <div>
+        <input type = "radio", name="menu", id ="저녁", values="저녁">
+        <label for = "저녁">저녁</label>
+     </div>
+        <div>
+        <input type = "radio", name="menu", id ="점심", values="점심">
+        <label for = "점심">점심</label>
+     </div>
+     <h2>하루동안 먹고 싶은 칼로리는 얼마입니까?</h2>
+     <div>
+        <input type ="number", min="300", max="1000", name = "calories">
+     </div>
+
+     <h2>주된 음식은 무엇으로 구성하고 싶습니까?</h2>
+     <div>
+        <select name = "main", id="">
+            <option value = "fruits">과일</option>
+            <option value = "fruits">고기</option>
+            <option value = "fruits">야채</option>
+        </select>
+     </div>
+
+     <div class="mb-3">
+        <label for="고객의 설명" class="form-label">왜 그런 음식을 먹고 싶습니까?</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+      </div>
+      <div class="mb-3">
+        <label for="개선사항" class="form-label">우리 식단에 개선사항을 말해주세요l</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+      </div>
+
+
+
+
+
+
+
+     <input type = "submit">
+    </form>
+</body>
+</html>
